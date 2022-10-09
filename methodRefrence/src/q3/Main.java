@@ -15,7 +15,8 @@ public class Main {
         Main obj = new Main();
         Map<String,Student> ans = obj.sortMapUsingStudentName(mymap);
 
-        System.out.println(ans);
+
+        ans.forEach((key,value)-> System.out.println(key+" : "+value));
 
     }
 
