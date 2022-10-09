@@ -1,13 +1,5 @@
 package interface_Impl;
 
-import collectionapp.Student;
-import collectionapp.StudentMarkComp;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
-
 public class Demo {
     public static void main(String[] args) {
 
@@ -18,8 +10,9 @@ public class Demo {
         // Anonymous Inner Class
         Intr i2 = new Intr() {
             @Override
-            public void sayHello(String name) {
+            public String sayHello(String name) {
                 System.out.println("Welcome Using Anonymous Inner Class "+name);
+                return name;
             }
         };
 

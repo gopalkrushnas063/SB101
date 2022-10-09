@@ -1,4 +1,4 @@
-package interface_Impl;
+package lambda_Expression_returnType;
 
 @FunctionalInterface
 public interface Intr {
